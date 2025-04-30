@@ -1,0 +1,471 @@
+:root {
+    --pink: #f84291; 
+    --bg: #0a0a0a; 
+    --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
+
+}
+
+body {
+    font-size: 1,2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-height: 4000px;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(bg-baru.png);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    filter: brightness(45%);
+}
+
+.hero {
+    position: relative;
+    min-height: 100vh;
+    
+}
+
+
+
+.hero h1, .hero h4, .hero p{
+    text-shadow: var(--shadow);
+    color: #e9d6b2;
+}
+
+
+.hero h1 {
+    font-family: "Monotype Corsiva", cursive;
+    font-size: 3.8rem;
+}
+
+
+.hero h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4.5rem;
+
+}
+
+.hero h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #e9d6b2;
+}
+
+.hero p {
+    font-size: 1.3rem;
+}
+
+.hero p{
+    font-size: 2rem;
+}
+
+.hero a {
+    color: #ddb771;
+    background-color: white;
+}
+
+.hero a:hover {
+    background-color: #e9d6b2;
+    color: white;
+}
+
+
+.mynavbar{
+    background-color: rgba(253, 247, 179, 0.189) !important;
+    backdrop-filter: blur(3px);
+}
+
+
+.mynavbar .offcanvas {
+    height: 100vh;
+}
+
+.mynavbar .navbar-brand, .mynavbar .offcanvas-title {
+    font-family: 'Monotype Corsiva', cursive;
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: #e9d6b2;
+}
+
+.mynavbar .nav-link {
+    text-transform: uppercase;
+    color: #e9d6b2;
+}
+
+.ayat {
+    background-image: url('bg-baru3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin-top: -6.5rem;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    text-align: center;
+  }
+
+
+.ayat h2 {
+    color: #e9d6b2;
+    font-family: 'Monotype Corsiva';
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.ayat p {
+    color: #e9d6b2;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.ayat .card {
+    background-color: #98b9d352 !important;
+    color: #000000 !important;
+    margin-top: -15px;
+}
+
+.ucapan {
+    background-image: url('bg-baru3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin-top: -6.5rem;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding: 2rem; 
+}
+
+
+.ucapan .card {
+    background-color: #98b9d352 !important;
+    color: #000000 !important;
+    margin-top: -100px;
+}
+
+.ucapan p {
+    color: #e9d6b2;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.andriputri {
+    background-image: url('bg-baru3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin-top: -6.5rem;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding: 2rem; 
+}
+
+.andriputri .card {
+    background-color: #98b9d352 !important;
+    color: #000000 !important;
+    margin-top: -50px;
+}
+
+.andriputri h4 {
+    color: #e9d6b2;
+    font-family: 'Monotype Corsiva';
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.andriputri h3 {
+    color: #e9d6b2;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+.andriputri h1 {
+    color: #e9d6b2;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 6rem;
+}
+
+
+.info {
+    background-image: url(bg-baru3.png);
+    background-size: cover;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+}
+
+.info h2,
+.gifts h2,
+.gallery h2,
+.rsvp h2 {
+    color: #e9d6b2;
+    font-family: 'Monotype Corsiva';
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.info .alamat {
+    font-size: 1.1rem;
+    color: #e9d6b2;
+}
+
+.info .description {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #e9d6b2;
+}
+
+.info a {
+    background-color: #e9d6b2;
+    color: #ab8a4e;
+}
+
+.info .card {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    color: #000000 !important;
+    border: 1px solid #999;
+}
+
+.info .card-header {
+    border-bottom: 1px solid #170202;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.info .card-body {
+    font-size: 1rem;
+}
+
+.info .card-footer {
+    border-top: 1px solid #999;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.gallery,
+.rsvp,
+.gifts {
+    background-color: #2b2223bc;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+}
+
+.gallery span,
+.gifts span {
+    text-transform: uppercase;
+    color: #e9d6b2;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+
+.gallery p,
+.rsvp p,
+.gifts p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.rsvp {
+    background-color: var(--bg);
+}
+
+.rsvp h2 {
+    font-size: 4.5rem;
+    color: #e9d6b2;
+}
+
+.rsvp p {
+    color: #e9d6b2;
+}
+
+.rsvp form label {
+    color: #e9d6b2;
+}
+
+.rsvp button {
+    background-color: #e9d6b2;
+    color: #c29747;
+    border: 1px solid #1e2e4f;
+}
+
+.rsvp button:hover {
+    background-color: white;
+    color: #e9d6b2;
+    border: 1px solid white;
+}
+
+footer {
+    padding: 0.9rem;
+    background-color: #e9d6b2;
+    color: white;
+}
+
+footer a {
+    color: #0a0a0a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+}
+
+.audio-icon-wrapper {
+    width: 3rem;
+    height: 3rem;
+    font-size: 4rem;
+    position: fixed;
+    bottom: 2.5rem;
+    right: 2.5rem;
+    cursor: pointer;
+    color: white;
+    opacity: 0.5;
+    mix-blend-mode: difference;
+    animation: rotating 4s linear infinite;
+    transform-origin: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.gold-particles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  .gold-particles::before,
+  .gold-particles::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: radial-gradient(circle, gold 0%, transparent 80%);
+    border-radius: 50%;
+    animation: fall 10s linear infinite;
+  }
+  
+  .gold-particles::after {
+    left: 50%;
+    animation-delay: 5s;
+  }
+  
+  @keyframes fall {
+    0% {
+      transform: translateY(-10%) scale(1);
+      opacity: 0.7;
+    }
+    100% {
+      transform: translateY(110vh) scale(0.5);
+      opacity: 0;
+    }
+  }
+
+
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .zoom-wrapper {
+    animation: zoomInOut 4s ease-in-out infinite;
+  }
+  
+  
+
+
+
+/* Media Query */
+/* Extra large */
+@media (max-width: 1200px) {
+    .home .heart {
+        transform: translateX(-50%) translateY(45px);
+    }
+}
+/* laptop */
+@media (max-width: 992px) {
+    html {
+        font-size: 75%;
+    }
+
+    .home .heart {
+        display: none;
+    }
+
+}
+/* tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 65%;
+    }
+
+    .mynavbar .nav-link {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .sticky-top {
+        overflow: hidden;
+    }
+}
+
+/* mobile phone */
+@media (max-width: 576px) {
+    html {
+        font-size: 60%;
+    }
+}
